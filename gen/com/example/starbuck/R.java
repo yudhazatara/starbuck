@@ -22,30 +22,83 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int background=0x7f020000;
-        public static final int button_green=0x7f020001;
-        public static final int button_red=0x7f020002;
+        public static final int activate=0x7f020000;
+        public static final int background=0x7f020001;
+        public static final int cardactive=0x7f020002;
         public static final int ic_launcher=0x7f020003;
-        public static final int sierra_icon=0x7f020004;
+        public static final int sale=0x7f020004;
+        public static final int sattlement=0x7f020005;
+        public static final int sierra_icon=0x7f020006;
+        public static final int topup=0x7f020007;
+        public static final int voidpay=0x7f020008;
     }
     public static final class id {
         public static final int Activation=0x7f080000;
-        public static final int CreatePin=0x7f080004;
-        public static final int Login=0x7f080008;
-        public static final int action_settings=0x7f08000a;
-        public static final int btnActivate=0x7f080006;
-        public static final int btnlogin=0x7f080003;
-        public static final int imageView1=0x7f080007;
+        public static final int ActivationPin=0x7f080004;
+        public static final int Amount=0x7f080020;
+        public static final int AmountVoid=0x7f080030;
+        public static final int BillNo=0x7f080021;
+        public static final int Confirmation=0x7f080022;
+        public static final int CreatePin=0x7f08000e;
+        public static final int Login=0x7f08000c;
+        public static final int Menu=0x7f080018;
+        public static final int RefNo=0x7f08002f;
+        public static final int Sale=0x7f08001f;
+        public static final int SaleConfirmation=0x7f080023;
+        public static final int Settlement=0x7f080026;
+        public static final int TotalSettlement=0x7f080027;
+        public static final int TotalTrancation=0x7f08002a;
+        public static final int Void=0x7f08002e;
+        public static final int VoidConfirmation=0x7f08002d;
+        public static final int action_settings=0x7f080031;
+        public static final int amount=0x7f080016;
+        public static final int ayam=0x7f080029;
+        public static final int btnActPin=0x7f080006;
+        public static final int btnActPinCashier=0x7f08000b;
+        public static final int btnActivate=0x7f080003;
+        public static final int btnActivateCashier=0x7f080009;
+        public static final int btnActivity=0x7f08001e;
+        public static final int btnCardAct=0x7f08001b;
+        public static final int btnNo=0x7f080025;
+        public static final int btnSale=0x7f080019;
+        public static final int btnSettle=0x7f080028;
+        public static final int btnSettlement=0x7f08001d;
+        public static final int btnTopUp=0x7f08001a;
+        public static final int btnVoid=0x7f08001c;
+        public static final int btnYes=0x7f080024;
+        public static final int btnlogin=0x7f080010;
+        public static final int cashierName=0x7f080007;
+        public static final int cashierPass=0x7f080008;
+        public static final int cashierPin=0x7f08000a;
+        public static final int checkbox1=0x7f080011;
+        public static final int imageView1=0x7f08000d;
+        public static final int label_amount=0x7f080015;
+        public static final int label_customername=0x7f080014;
+        public static final int label_refNo=0x7f080012;
+        public static final int listsettlement=0x7f08002c;
         public static final int password=0x7f080002;
         public static final int pin=0x7f080005;
-        public static final int pinLogin=0x7f080009;
+        public static final int pinLogin=0x7f080017;
+        public static final int pinLoginCashier=0x7f08000f;
+        public static final int refNo=0x7f080013;
+        public static final int test=0x7f08002b;
         public static final int username=0x7f080001;
     }
     public static final class layout {
         public static final int activation=0x7f030000;
         public static final int activation_pin=0x7f030001;
         public static final int button_green=0x7f030002;
-        public static final int login=0x7f030003;
+        public static final int cashier_activation=0x7f030003;
+        public static final int cashier_activation_pin=0x7f030004;
+        public static final int cashier_login=0x7f030005;
+        public static final int content_settlement=0x7f030006;
+        public static final int login=0x7f030007;
+        public static final int menu=0x7f030008;
+        public static final int sale=0x7f030009;
+        public static final int sale_confirmation=0x7f03000a;
+        public static final int settlement=0x7f03000b;
+        public static final int void_confirmation=0x7f03000c;
+        public static final int void_layout=0x7f03000d;
     }
     public static final class menu {
         public static final int main=0x7f070000;
