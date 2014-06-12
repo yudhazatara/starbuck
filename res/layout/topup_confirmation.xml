@@ -30,7 +30,7 @@
             android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/SaleConfirmation"
+                    android:id="@+id/SettleConfirmation"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
@@ -40,7 +40,7 @@
                     android:shadowDx="3"
                     android:shadowDy="3"
                     android:shadowRadius="3"
-                    android:text="Are you sure to Pay Bill No 1234 with amount IDR 350.000,- ?"
+                    android:text="Are you sure to Top Up your balance with amount IDR 100.000,- ?"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="#739D46"
                     android:textSize="30sp"

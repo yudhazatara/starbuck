@@ -12,7 +12,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="180dp"
-                android:background="#80FFFFFF"
+                android:background="#80000000"
                 android:orientation="vertical" >
 
                 <TextView
@@ -44,7 +44,7 @@
             android:shadowRadius="3"
             android:text="Are you sure to Void transaction No 122200012001 with amount IDR 250.000,- ?"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#FFFFFF"
+            android:textColor="#739D46"
             android:textSize="30sp"
             android:textStyle="bold" />
                 
