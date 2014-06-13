@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Settlement"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:shadowColor="#33262F"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="3"
+            android:text="Settlement"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="65sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="79dp"
+                android:background="#80FFFFFF"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingLeft="5dip" >
+
+                <TextView
+                    android:layout_width="810dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="Please swipe your card to check the balance."
+                    android:textColor="#000000"
+                    android:textColorHint="#DDDDDD"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnSwipe"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@layout/button_green"
+                    android:text="Swipe Card Now"
+                    android:textSize="28sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="Card Information"
+                android:textColor="#ffffff"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/lalala"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#80FFFFFF"
+                android:orientation="horizontal"
+                android:paddingLeft="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:text="Card Number"
+                    android:textColor="#000000"
+                    android:textColorHint="#DDDDDD"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/CardNo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="55dip"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:text="1000222233334444"
+                    android:textColor="#000000"
+                    android:textSize="28sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/yeyeye"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#80FFFFFF"
+                android:orientation="horizontal"
+                android:paddingLeft="5dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:text="Balance"
+                    android:textColor="#000000"
+                    android:textColorHint="#DDDDDD"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/CardNo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="135dip"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:text="IDR 550.000,-"
+                    android:textColor="#000000"
+                    android:textSize="28sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="Last Transaction"
+                android:textColor="#ffffff"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/label_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#80FFFFFF"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/Date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="45dip"
+                            android:layout_toRightOf="@+id/tanggalTrx"
+                            android:padding="2dip"
+                            android:paddingTop="4dip"
+                            android:text="Date"
+                            android:textColor="#000000"
+                            android:textSize="32sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/MarcName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/trxDate"
+                            android:layout_weight="0.56"
+                            android:gravity="center"
+                            android:text="Merchant Name"
+                            android:textColor="#000000"
+                            android:textSize="32sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TrxType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/refNo"
+                            android:layout_weight="0.30"
+                            android:gravity="center"
+                            android:text="Trx Type"
+                            android:textColor="#000000"
+                            android:textSize="35dip"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="150dp"
+                    android:layout_toRightOf="@+id/description"
+                    android:layout_weight="0.36"
+                    android:gravity="right"
+                    android:padding="2dip"
+                    android:paddingTop="4dip"
+                    android:text="Amount"
+                    android:textColor="#000000"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/test"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/yeyeye"
+                android:layout_gravity="top"
+                android:gravity="top"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/listTransaction"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="top"
+                    android:background="#80FFFFFF"
+                    android:gravity="top" >
+                </ListView>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
