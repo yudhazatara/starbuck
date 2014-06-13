@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="20dp"
         android:orientation="vertical" >
 
         <TextView
@@ -17,7 +17,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
             android:shadowColor="#33262F"
             android:shadowDx="3"
             android:shadowDy="3"
@@ -25,7 +24,7 @@
             android:text="Activation"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#FFFFFF"
-            android:textSize="42sp"
+            android:textSize="65sp"
             android:textStyle="bold" />
 
         <LinearLayout
@@ -33,34 +32,34 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:background="#80FFFFFF"
+            android:background="#80000000"
             android:orientation="vertical" >
 
             <TextView
                 android:id="@+id/ActivationPin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="30dp"
                 android:text="Create your PIN :"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="#FFFFFF"
-                android:textSize="28sp"
+                android:textSize="40sp"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/cashierPin"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="120dp"
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:gravity="center"
                 android:maxLength="4"
                 android:hint="PIN"
                 android:inputType="textPassword"
-                android:textSize="28sp" >
+                android:textSize="50sp" >
 
                 <requestFocus />
             </EditText>
@@ -68,10 +67,10 @@
             <Button
                 android:id="@+id/btnActPinCashier"
                 android:layout_width="200dp"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="20dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="30dp"
                 android:background="@layout/button_green"
                 android:text="Activate"
                 android:textSize="28sp" />

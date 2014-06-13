@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:orientation="vertical" >
 
         <TextView
@@ -39,7 +39,7 @@
                 android:id="@+id/ActivationPin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="130dp"
+                android:layout_marginLeft="120dp"
                 android:layout_marginTop="30dp"
                 android:text="Create your PIN :"
                 android:textAppearance="?android:attr/textAppearanceLarge"
@@ -51,8 +51,8 @@
                 android:id="@+id/pin"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="130dp"
-                android:layout_marginRight="130dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="120dp"
                 android:layout_marginTop="20dp"
                 android:ems="10"
                 android:gravity="center"
