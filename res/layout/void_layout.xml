@@ -37,6 +37,7 @@
 	            android:textAppearance="?android:attr/textAppearanceLarge"
 	            android:textColor="#FFFFFF"
 	            android:textSize="65sp"
+	            android:layout_marginRight="240dp"
 	            android:textStyle="bold" />
 	        
 		</LinearLayout>

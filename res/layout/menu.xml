@@ -23,7 +23,7 @@
             android:text="Menu"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#FFFFFF"
-            android:textSize="42sp"
+            android:textSize="65sp"
             android:textStyle="bold" />
 
         <LinearLayout
