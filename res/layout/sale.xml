@@ -92,7 +92,7 @@
             <Button
                 android:id="@+id/btnSale"
                 android:layout_width="200dp"
-                android:layout_height="220dp"
+                android:layout_height="225dp"
                 android:layout_gravity="center_horizontal"
                 android:background="@layout/button_green"
                 android:text="Sale"

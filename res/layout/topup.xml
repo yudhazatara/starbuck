@@ -78,7 +78,7 @@
             <Button
                 android:id="@+id/btnTopUp"
                 android:layout_width="200dp"
-                android:layout_height="120dp"
+                android:layout_height="118dp"
                 android:layout_gravity="center_horizontal"
                 android:background="@layout/button_green"
                 android:text="Check Balance"
