@@ -126,7 +126,7 @@
                 android:orientation="vertical">
 
             <ListView
-                    android:id="@+id/listpaymentdetail"
+                    android:id="@+id/listActivity"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
